@@ -2,6 +2,20 @@ import React, { Component } from 'react';
 import TechItem from './TechItem';
 
 class TechList extends Component {
+  /*
+    Se esse componente tivesse alguma
+    propriedade, poderíamos usar o
+    defaultProps para valores padrão:
+    
+    static defaultProps = {
+      tech: 'TECH DEFAULT'
+    } 
+
+    static propTypes = {
+      tech: PropTypes.string,
+    }
+
+   */
 
   state = {
     techs: [
